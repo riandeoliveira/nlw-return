@@ -22,7 +22,7 @@ Widget para o envio de feedbacks de usuários em aplicações web e mobile. Proj
 
 ## 💻 Como acessar
 
-A aplicação está hospedada na **Vercel** e pode ser acessada [aqui]().
+A aplicação está hospedada na **Vercel** e pode ser acessada [aqui](https://nlwfidget.vercel.app/).
 
 ## 🛠️ Tecnologias utilizadas
 
