@@ -6,16 +6,25 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
 model Feedback {
-  id String @id @default(uuid())
-
+  id         String  @id @default(auto()) @map("_id") @db.ObjectId
   type       String
   comment    String
   screenshot String?
 
   @@map("feedbacks")
 }
+
+// model Feedback {
+//   id String @id @default(uuid())
+
+//   type       String
+//   comment    String
+//   screenshot String?
+
+//   @@map("feedbacks")
+// }
