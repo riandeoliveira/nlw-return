@@ -14,7 +14,24 @@
 
 ## 📚 Sobre
 
-Widget para o envio de feedbacks de usuários em aplicações web e mobile. Projeto desenvolvido durante a trilha Impulse no evento NLW Return da [Rocketseat](https://www.rocketseat.com.br/).
+Widget para o envio de feedbacks de usuários em aplicações web e mobile.
+
+### 🕹️ Possui as seguintes funcionalidades:
+
+- Escolher um tipo de feedback.
+- Escrever um comentário.
+- Tirar print da tela.
+- Enviar esses dados.
+
+O administrador recebe os dados por e-mail.
+
+### 📝 Nota
+
+Optei por utilizar o banco de dados **MongoDB** ao invés do **SQLite** ou **PostgreSQL** apresentados, para deixar mais alinhado com a minha stack.
+
+### 🏗️ Desenvolvimento
+
+Projeto desenvolvido durante a trilha **Impulse** no evento **NLW Return** da [Rocketseat](https://www.rocketseat.com.br/).
 
 ## 🔎 Demonstração
 
@@ -115,9 +132,9 @@ A aplicação está hospedada na **Vercel** e pode ser acessada [aqui](https://n
         <span>Express.js</span>
       </td>
       <td align="center" height="110" width="140">
-        <img alt="SQLite logo" src="https://sempreupdate.com.br/wp-content/uploads/2020/01/Sqlite-square-icon.svg_.png" title="SQLite" width="50" />
+        <img alt="MongoDB logo" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" title="MongoDB" width="50" />
         <br>
-        <span>SQLite</span>
+        <span>MongoDB</span>
       </td>
     </tr>
     <tr>
